@@ -12,13 +12,11 @@ Since this is your first project, your manager has provided you with some helpfu
 Your Manager has laid out the following requirements for the project: 
 
 * The webapp will display the Track Title, Genre and URL for songs tagged with the genre the user inputs.
-* CSS is not a necessary feature for this project 
 
 
 ##Learning Objectives
 By the end of this project the employee will be able to...
 
-* Obtain a Client ID by registering their application with SoundCloud
 * Initialize their application using SC.initialize
 * Get information from an API using SC.get
 * Use jQuery to append text to an HTML page
@@ -41,7 +39,7 @@ By the end of this project the employee will be able to...
 ***
 ##Instructions
 
-You are not given any Starter Code for this project. However, your manager has provided you with some useful direction to complete this project. Follow the step-by-step instructions below. 
+Your manager has provided you with some useful direction to complete this project. Follow the step-by-step instructions below. 
 
 Although these directions do not provide all the answers for this project, they do provide you with the guidance you will need to make this project.
 
@@ -51,9 +49,9 @@ This should have already been completed during the [Do Now](doNow.md).
 **Before moving on to step two, ensure your HTML is correct by having an instructor confirm you are ready to move on.** 
 
 ###2) Obtain a Client ID
-In order to use a company's API you must request access and have them send you an API key. SoundCloud asks you to do this by registering your app on the [SoundCloud Developers Guide](developers.soundcloud.com/docs/api/guide) page.
+You will need to use the following client ID with the API: ```90f2a1fb287219fc9350fe313a7dfced```
 
-Sign in or create a SoundCloud account to receive you Client ID. After your Client ID has been emailed to you use ```SC.initialize``` to begin using the SoundCloud API.
+Copy this and use ```SC.initialize``` to begin using the SoundCloud API.
 
 
 ###3) Ready the Document
@@ -84,8 +82,10 @@ You are finally ready to start placing text in the form of API references in you
 ####Bonus) 
 Your Manager has offered a stipend of $500 for each of the bonus requirements listed below:  
 
+* Use Bootstrap to style the unsorted list that the results sit in, so that they look more appealing. 
+
 * Display information about the user next to information about the track. Use the [SoundCloud Developers Guide](developers.soundcloud.com/docs/api/guide) for this documentation
-* Stream a song matching the genre selected. Use the [SoundCloud Developers Guide](developers.soundcloud.com/docs/api/guide) for this documentation.  
+
 
 ***
 
