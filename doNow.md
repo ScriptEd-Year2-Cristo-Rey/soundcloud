@@ -15,9 +15,8 @@ The do now activity for this lesson is to create the html page below in a new Gi
 * Fill out the existing "h1" tag on the page with the proper header
 
 * Add two additional ```script``` tags linked to the following:
- 	1. jQuery
- 	2. [SoundCloud's JavaScript SDK](developers.soundcloud.com/blog/introducing-javascript-sdk-version-2)  
- 	3. Your ```script.js``` file
+ 	1. [SoundCloud's JavaScript SDK](developers.soundcloud.com/blog/introducing-javascript-sdk-version-2)  
+ 	2. Your ```script.js``` file
 
     Hint! There is already a script tag on the page linking to jQuery - base your other two on this!
  	  		
